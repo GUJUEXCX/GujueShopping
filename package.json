@@ -1,0 +1,23 @@
+{
+  "name": "gj",
+  "version": "1.0.0",
+  "description": "sm",
+  "main": "app.js",
+  "dependencies": {
+    "eslint": "^4.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GUJUEXCX/GujueShopping.git"
+  },
+  "author": "gj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GUJUEXCX/GujueShopping/issues"
+  },
+  "homepage": "https://github.com/GUJUEXCX/GujueShopping#readme"
+}
