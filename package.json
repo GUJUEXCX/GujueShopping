@@ -1,7 +1,7 @@
 {
-  "name": "gj",
+  "name": "gujueshopping",
   "version": "1.0.0",
-  "description": "sm",
+  "description": "a wechat shopping program",
   "main": "app.js",
   "dependencies": {
     "eslint": "^4.7.1"
