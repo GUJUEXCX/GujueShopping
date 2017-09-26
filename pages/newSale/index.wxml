@@ -1,36 +1,22 @@
-<view class="container">
-  
-    <view class="doc_title">CARD</view>
-  
-    <view class="zan_panel">
-      <view class="index_newSale_card">
-        <view class="index_newSale_card_thumb">
-          <image class="index_newSale_card_img"
-            src="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg"
-            mode="aspectFit"
-          ></image>
+<template name="newSale" class="cmo_container">
+  <view class="index_newSale_panel">
+    <view class="index_newSale_card">
+      <view class="index_newSale_cardThumb">
+        <image class="index_newSale_cardImg"
+          src="https://img14.360buyimg.com/n0/jfs/t5956/198/2732777523/490544/88119ca0/59438082N93ac7c97.jpg"
+          mode="aspectFit"
+        ></image>
+      </view>
+      <view class="index_newSale_cardDetail">
+        <view class="index_newSale_cardDetail_col">
+          <view class="index_newSale_cardLeft_row cmo_goods_title">今何在</view>
+          <view class="index_newSale_cardLeft_row">古觉原创磨砂黑玛瑙藏银转运珠男款情侣款手串简洁大气</view>
         </view>
-        <view class="index_newSale_card_detail">
-          <view class="index_newSale_card_detail_row">
-            <view class="index_newSale_card_right_col">¥ 999.99</view>
-            <view class="index_newSale_card_left_col zan_ellipsis__l2">
-               红烧牛肉【虚拟商品】【有库存】【有sku】
-            </view>
-          </view>
-  
-          <view class="index_newSale_card_detail_row zan_c_gray_darker">
-            <view class="index_newSale_card_right_col">x2</view>
-            <view class="index_newSale_card_left_col">
-              3000克 50%
-            </view>
-          </view>
-  
-          <view class="index_newSale_card_detail_row zan_c_gray_darker">
-            <view class="index_newSale_card_left_col zan_c_red">已发货</view>
-          </view>
+        <view class="index_newSale_cardDetail_col">
+          <view class="index_newSale_cardRight_row index_newSale_price">¥ 69</view>
         </view>
       </view>
     </view>
-  
   </view>
+</template>
   

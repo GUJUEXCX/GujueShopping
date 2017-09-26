@@ -1,11 +1,26 @@
-<!--index.wxml-->
-
+<import src="../newSale/index.wxml"/>
 <import src="../hotSale/index.wxml" />
-<view class='index_hotSale_row' >   
+
+<view class="container">
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  
+  <template is="newSale"></template>
+  <template is="newSale"></template>
+  <template is="newSale"></template>
+
+  <view class='index_hotSale_row' >   
     <template is="hotSale" /> 
     <template is="hotSale" />
-</view>
-<view class='index_hotSale_row index_marginTop_20px'>
+  </view>
+  <view class='index_hotSale_row index_marginTop_20px'>
     <template is="hotSale" /> 
     <template is="hotSale" />
+  </view>
 </view>
