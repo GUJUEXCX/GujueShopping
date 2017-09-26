@@ -1,5 +1,10 @@
 /**app.wxss**/
-.container {
+
+body {
+  font-family: 'microsoftYaHei';
+}
+
+.cmo_container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -7,4 +12,9 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}
+
+.cmo_goods_title {
+  font-size: 33rpx !important;
+  font-weight: 700 !important;
+}

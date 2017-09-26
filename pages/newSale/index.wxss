@@ -1,53 +1,73 @@
 .index_newSale_card {
-    margin-left: 0px;
-    width: auto;
-    padding: 5px 15px;
-    overflow: hidden;
-    position: relative;
-    font-size: 14px;
-  }
-  
-  .index_newSale_card_thumb {
-    width: 90px;
-    height: 90px;
-    float: left;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    background-size: cover;
-  }
-  
-  .index_newSale_card_img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-  }
-  
-  .index_newSale_card_detail {
-    margin-left: 100px;
-    width: auto;
-    position: relative;
-  }
-  
-  .index_newSale_card_detail_row {
-    overflow: hidden;
-    line-height: 20px;
-    min-height: 20px;
-    margin-bottom: 3px;
-  }
-  
-  .index_newSale_card_right_col {
-    float: right;
-  }
-  
-  .index_newSale_card_left_col {
-    margin-right: 80px;
-  }
+  position: relative;
+  width: auto;
+  margin-left: 0px;
+  padding: 5px 10px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.index_newSale_panel {
+  background: #fff;
+  border-bottom: 1rpx solid #e5e5e5;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.index_newSale_cardThumb {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.index_newSale_cardImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.index_newSale_cardDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10px;
+  width: auto;
+}
+
+.index_newSale_cardDetail_col {
+  overflow: hidden;
+  line-height: 20px;
+  min-height: 20px;
+}
+
+.index_newSale_cardLeft_row {
+  width: auto;
+  font-size: 30rpx;
+}
+
+.index_newSale_cardRight_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  margin-right: 60px;
+}
+
+.index_newSale_price {
+  color: red;
+}
   
