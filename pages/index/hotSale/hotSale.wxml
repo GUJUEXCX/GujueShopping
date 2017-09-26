@@ -1,7 +1,0 @@
-
-<view class='index_hotsale'>
-  <navigator class='index_hotsale_btn'>
-    <view class='index_hotsale_img'></view>
-    <view class='index_hotsale_text'></view>
-  </navigator>
-</view>

@@ -4,10 +4,10 @@ Page({
   data: {
   },
 
-  onLoad: function () {
 
+
+  onLoad: function () {  
   },
-
   onShow: function () {
   },
 })
