@@ -1,4 +1,5 @@
 <import src="../newSale/index.wxml"/>
+<import src="../hotSale/index.wxml" />
 
 <view class="container">
   <swiper indicator-dots="{{indicatorDots}}"
@@ -14,4 +15,12 @@
   <template is="newSale"></template>
   <template is="newSale"></template>
 
+  <view class='index_hotSale_row' >   
+    <template is="hotSale" /> 
+    <template is="hotSale" />
+  </view>
+  <view class='index_hotSale_row index_marginTop_20px'>
+    <template is="hotSale" /> 
+    <template is="hotSale" />
+  </view>
 </view>

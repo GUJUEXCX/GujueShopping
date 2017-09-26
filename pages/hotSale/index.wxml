@@ -1,0 +1,14 @@
+<template name="hotSale" >
+  <view class='index_hotSale' >
+    
+      <view class='index_hotSale_img'>
+        <image src='https://img14.360buyimg.com/n0/jfs/t5779/76/5045457326/549344/845a3a99/5959dc20N02a2930d.jpg'></image>
+      </view>
+      <view class='index_hotSale_text'>
+        <text class='index_hotSale_name'>名字</text>
+        <text class='index_hotSale_price'>价格</text>
+        
+      </view>
+    
+  </view>
+</template>

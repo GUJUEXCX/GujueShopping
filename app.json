@@ -8,7 +8,8 @@
     "pages/categories/index",
     "pages/goodsCard/index",
     "pages/hotSale/index",
-    "pages/user/index"
+    "pages/user/index",
+    "pages/goods/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
