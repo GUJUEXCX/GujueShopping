@@ -5,7 +5,7 @@ var app = getApp()
 Page({
   data: {
   },
-
+ 
   onLoad: function () {
 
   },
@@ -13,4 +13,3 @@ Page({
   onShow: function () {
   },
 })
-

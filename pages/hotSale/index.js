@@ -3,7 +3,10 @@ var app = getApp()
 Page({
   data: {
   },
-  onLoad: function () {
+
+
+
+  onLoad: function () {  
   },
   onShow: function () {
   },
