@@ -4,6 +4,7 @@
 <view class="container">
 
 <!-- 滚动图片swiper -->
+
 <view class='index_swiper'>
   <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" >
@@ -14,6 +15,7 @@
     </block>
   </swiper>
 </view>
+
 <!-- 导航 -->
 <view class="index_navigation">
         <view class="index_navigation_row">
@@ -38,15 +40,26 @@
     </view>
 
 <!-- 新品推荐 -->
+
+  <view class="index_saleTitle">
+    <view class="index_saleText">新品上市</view>
+  </view>
+
   <template is="newSale"></template>
   <template is="newSale"></template>
   <template is="newSale"></template>
   
 <!-- 当前热卖 -->
+
+  <view class="index_saleTitle index_saleTitle_hotSale">
+    <view class="index_saleText">当前热卖</view>
+  </view>
+
   <view class='index_hotSale_flex'>
     <template is="hotSale" /> 
     <template is="hotSale" />
     <template is="hotSale" /> 
     <template is="hotSale" />
   </view>
+  
 </view>

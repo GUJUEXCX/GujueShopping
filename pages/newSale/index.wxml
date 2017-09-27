@@ -1,16 +1,15 @@
 <template name="newSale" class="cmo_container">
   <view class="index_newSale_panel">
     <view class="index_newSale_card">
-      <view class="index_newSale_cardThumb">
+      <navigator class="index_newSale_cardThumb" url="/pages/hotSale/index" open-type="navigate">
         <image class="index_newSale_cardImg"
           src="https://img14.360buyimg.com/n0/jfs/t5956/198/2732777523/490544/88119ca0/59438082N93ac7c97.jpg"
-          mode="aspectFit"
-        ></image>
-      </view>
+          mode="aspectFit"></image>
+      </navigator>
       <view class="index_newSale_cardDetail">
         <view class="index_newSale_cardDetail_col">
-          <view class="index_newSale_cardLeft_row cmo_goods_title">今何在</view>
-          <view class="index_newSale_cardLeft_row">古觉原创磨砂黑玛瑙藏银转运珠男款情侣款手串简洁大气</view>
+          <navigator class="index_newSale_cardLeft_row cmo_goods_title" url="/pages/hotSale/index" open-type="navigate">今何在</navigator>
+          <navigator class="index_newSale_cardLeft_row" url="/pages/hotSale/index" open-type="navigate">古觉原创磨砂黑玛瑙藏银转运珠男款情侣款手串简洁大气</navigator>
         </view>
         <view class="index_newSale_cardDetail_col">
           <view class="index_newSale_cardRight_row index_newSale_price">¥ 69</view>
