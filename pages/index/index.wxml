@@ -5,39 +5,36 @@
 
 <!-- 滚动图片swiper -->
 
-<view class='index_swiper'>
-  <swiper indicator-dots="{{indicatorDots}}"
-  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" >
-    <block wx:for="{{imgUrls}}">
-      <swiper-item>
-        <image src="{{item}}" mode='scaleToFill'/>
-      </swiper-item>
-    </block>
-  </swiper>
-</view>
+  <view class='index_swiper'>
+    <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" >
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" mode='scaleToFill'/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
 
-<!-- 导航 -->
-<view class="index_navigation">
-        <view class="index_navigation_row">
-            <navigator class="index_navigation_row_name"  hover-class="navigator-hover">
-                <image class="index_navigation_image"  mode="aspectFit" src="http://static.guoku.com/static/v4/34e153450034ebbd9166b38702e38f36e65a9e69/images/category-icon/1.png" />
-                <text class="index_navigation_text">居家</text>
-            </navigator> 
-            <navigator class="index_navigation_row_name"  hover-class="navigator-hover">
-                <image class="index_navigation_image"  mode="aspectFit" src="http://static.guoku.com/static/v4/34e153450034ebbd9166b38702e38f36e65a9e69/images/category-icon/1.png" />
-                <text class="index_navigation_text">居家</text>
-            </navigator>
-            <navigator class="index_navigation_row_name"  hover-class="navigator-hover">
-                <image class="index_navigation_image"  mode="aspectFit" src="http://static.guoku.com/static/v4/34e153450034ebbd9166b38702e38f36e65a9e69/images/category-icon/1.png" />
-                <text class="index_navigation_text">居家</text>
-            </navigator>
-            <navigator class="index_navigation_row_name"  hover-class="navigator-hover">
-                <image class="index_navigation_image"  mode="aspectFit" src="http://static.guoku.com/static/v4/34e153450034ebbd9166b38702e38f36e65a9e69/images/category-icon/1.png" />
-                <text class="index_navigation_text">居家</text>
-            </navigator>
-        </view>
-        
-    </view>
+  <!-- 导航 -->
+  <view class="index_navigation">
+    <navigator class="index_navigation_name"  hover-class="navigator-hover">
+      <image class="index_navigation_image"  mode="aspectFit" src="http://static.guoku.com/static/v4/34e153450034ebbd9166b38702e38f36e65a9e69/images/category-icon/1.png" />
+      <text class="index_navigation_text">居家</text>
+    </navigator> 
+    <navigator class="index_navigation_name"  hover-class="navigator-hover">
+      <image class="index_navigation_image"  mode="aspectFit" src="http://static.guoku.com/static/v4/34e153450034ebbd9166b38702e38f36e65a9e69/images/category-icon/1.png" />
+      <text class="index_navigation_text">居家</text>
+    </navigator>
+    <navigator class="index_navigation_name"  hover-class="navigator-hover">
+      <image class="index_navigation_image"  mode="aspectFit" src="http://static.guoku.com/static/v4/34e153450034ebbd9166b38702e38f36e65a9e69/images/category-icon/1.png" />
+      <text class="index_navigation_text">居家</text>
+    </navigator>
+    <navigator class="index_navigation_name"  hover-class="navigator-hover">
+      <image class="index_navigation_image"  mode="aspectFit" src="http://static.guoku.com/static/v4/34e153450034ebbd9166b38702e38f36e65a9e69/images/category-icon/1.png" />
+      <text class="index_navigation_text">居家</text>
+    </navigator>
+  </view>
 
 <!-- 新品推荐 -->
 
