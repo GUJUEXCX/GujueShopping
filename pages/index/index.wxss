@@ -12,3 +12,42 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+
+/** navigation.wxss **/
+.index_navigation{ 
+  padding: 5px 1rem 5px; 
+  padding-bottom: 5px; 
+}
+.index_navigation_row{ 
+  display: flex; 
+  flex-wrap: wrap;
+  width: 18rem; 
+  justify-content: space-around; 
+  align-items: flex-start; 
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: 50% 50%;  
+}
+.index_navigation_row_name{ 
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  min-width: 3rem; 
+  text-align: center; 
+  align-items: center;
+  padding-bottom: 5px; }
+.index_navigation_text{ 
+  display: block; 
+  font-size: 12px; 
+  text-align: center; 
+}
+.index_navigation_image{ 
+  display: block; 
+  width: 44px; 
+  height: 44px; 
+  background-color: transparent; 
+  background-size: contain; 
+  background-position: center center; 
+  background-repeat: no-repeat;
+}

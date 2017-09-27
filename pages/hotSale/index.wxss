@@ -35,15 +35,15 @@
 
 .index_hotSale_text {
   position: absolute;
-  top: 160px;
+  top: 155px;
   width: 95%;
   height: 45px;
   margin-left: 2.5%; 
   font-family: "微软雅黑";
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.5em;
-  letter-spacing: 0.2em;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7em;
+  
   box-sizing: border-box;
 }
 .index_hotSale_text text {
@@ -51,5 +51,6 @@
 }
 .index_hotSale_price {
   color: red;
-  float: right;
+  float: left;
+  font-size: 13px;
 }
