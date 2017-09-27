@@ -1,12 +1,12 @@
 {
   "pages":[
-		"pages/index/index",
+    "pages/index/index",
     "pages/newSale/index",
     "pages/logs/logs",
     "pages/cart/index",
     "pages/cartGoods/index",
     "pages/categories/index",
-    "pages/goodsCard/index",
+    "pages/goodsDetail/index",
     "pages/hotSale/index",
     "pages/user/index",
     "pages/goods/index"
@@ -16,5 +16,23 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, 
+    {
+      "pagePath": "pages/categories/index",
+      "text": "分类"
+    },
+    {
+      "pagePath": "pages/cart/index",
+      "text": "购物车"
+    },
+    {
+      "pagePath": "pages/user/index",
+      "text": "用户"
+    }]
   }
 }

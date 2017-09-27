@@ -95,5 +95,7 @@ module.exports = {
         "keyword-spacing": "error",
         // 块语句至少有一个前置空格
         "space-before-blocks": "error",
+        // 变量未使用警告
+        "no-unused-vars": "warn",
     }
 };

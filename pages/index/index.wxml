@@ -23,4 +23,5 @@
     <template is="hotSale" /> 
     <template is="hotSale" />
   </view>
+  
 </view>

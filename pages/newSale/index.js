@@ -1,10 +1,6 @@
-var app = getApp()
+const App = getApp()
 
 Page({
   data: {
-  },
-  onLoad: function () {
-  },
-  onShow: function () {
   },
 })
