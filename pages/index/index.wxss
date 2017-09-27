@@ -4,11 +4,28 @@
 @import "../newSale/index.wxss";
 @import "../hotSale/index.wxss";
 
-
-.index_swiper image{
+.index_swiper image {
   width: 100%;
 }
+
+.index_saleTitle {
+  position: relative;
+  width: auto;
+  margin: 0 1px 5px 1px;
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.index_saleText {
+  color: red;
+  font-size: 35rpx;
+}
+
 .index_hotSale_flex {
   display: flex;
   flex-wrap: wrap;
+}
+
+.index_saleTitle_hotSale {
+  margin: 5px 1px -2px 1px;
 }
