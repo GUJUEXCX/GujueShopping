@@ -5,19 +5,23 @@
 */
 
 .index_hotSale {
+  display: flex;
+  position: relative;
   width: 45%;
   height: 210px;
   margin-top: 10px;
   margin-left: 3%;
   box-shadow: 0 1px 3px rgba(0,0,0,.2), 0 1px 1px rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+  box-sizing: border-box;
 }
 
 .index_hotSale_img {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 150px;
   margin-top: 0px;
   background-size: cover;
+  box-sizing: border-box;
 }
 .index_hotSale_img image {
   position: absolute;
@@ -25,20 +29,22 @@
   left: 0;
   bottom: 0;
   right: 0;
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
 .index_hotSale_text {
+  position: absolute;
+  top: 160px;
   width: 95%;
   height: 45px;
-  margin-left: 2.5%;
-  margin-top: 10px;
+  margin-left: 2.5%; 
   font-family: "微软雅黑";
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5em;
   letter-spacing: 0.2em;
+  box-sizing: border-box;
 }
 .index_hotSale_text text {
   display: block;

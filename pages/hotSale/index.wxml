@@ -1,4 +1,4 @@
-<template name="hotSale" >
+<template name="hotSale">
   <view class='index_hotSale' >
     
       <view class='index_hotSale_img'>
