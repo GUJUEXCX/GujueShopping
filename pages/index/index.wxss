@@ -4,13 +4,11 @@
 @import "../newSale/index.wxss";
 @import "../hotSale/index.wxss";
 
-.index_hotSale_row {
-  display: flex;
-  width: 100%;
-  height: 200px;
-  margin: 0;
-}
 
-.index_marginTop_20px {
-  margin-top: 20px;
+.index_swiper image{
+  width: 100%;
+}
+.index_hotSale_flex {
+  display: flex;
+  flex-wrap: wrap;
 }
