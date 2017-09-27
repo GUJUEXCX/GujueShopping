@@ -7,7 +7,8 @@ module.exports = {
         "wx": false,
         "App": false,
         "Page": false,
-        "getApp": false
+        "getApp": false,
+        "module": false
     },
     "extends": "eslint:recommended",
     "parserOptions": {
