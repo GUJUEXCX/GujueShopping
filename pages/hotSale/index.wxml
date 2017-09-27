@@ -6,7 +6,7 @@
       </view>
       <view class='index_hotSale_text'>
         <text class='index_hotSale_name'>名字</text>
-        <text class='index_hotSale_price'>价格</text>
+        <text class='index_hotSale_price'>￥69</text>
         
       </view>
     
