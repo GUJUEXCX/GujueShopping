@@ -12,10 +12,11 @@
     "pages/goods/index"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#ccc",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "古觉",
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "color": "#999",
