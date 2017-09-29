@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/user/index",
     "pages/categories/index",
 		"pages/index/index",
     "pages/newSale/index",
@@ -8,12 +9,11 @@
     "pages/cartGoods/index",
     "pages/goodsDetail/index",
     "pages/hotSale/index",
-    "pages/user/index",
     "pages/goods/index"
   ],
   "window":{
     "backgroundTextStyle": "light",
-    "backgroundColor": "#ccc",
+    "backgroundColor": "#e9e9e9",
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "古觉",
     "navigationBarTextStyle":"white"
