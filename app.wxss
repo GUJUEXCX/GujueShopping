@@ -2,7 +2,7 @@
 
 Page {
   font-family: 'microsoftYaHei';
-  background-color: rgba(224, 222, 222, 0.42);
+  background-color: #E9E9E9;
 }
 
 .cmo_container {

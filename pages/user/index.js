@@ -1,22 +1,23 @@
-var app = getApp()
+const App = getApp()
+
 Page({
   data: {
-    navLeftItems: [],
-    navRightItems: [],
-    curNav: 1,
-    curIndex: 0
+    avatarUrl: 'https://img14.360buyimg.com/n0/jfs/t5956/198/2732777523/490544/88119ca0/59438082N93ac7c97.jpg',
+    userName: '古觉'
   },
-  onLoad: function () {
+  order () {
+    wx.reLaunch({
+      url: '../index/index'
+    })
   },
-
-  // 事件处理函数
-  switchRightTab: function (e) {
-    let id = e.target.dataset.id,
-      index = parseInt(e.target.dataset.index);
-    this.setData({
-      curNav: id,
-      curIndex: index
+  address () {
+    wx.reLaunch({
+      url: '../categories/index'
+    })
+  },
+  about () {
+    wx.reLaunch({
+      url: '../index/index'
     })
   }
-
 })
